@@ -1,7 +1,3 @@
-
-
-
-
 # Parts
 
 | Parts | Price | 
@@ -26,10 +22,17 @@
 * follow the documentation for firmware configuration
 
 ## Receiver and Radio Binding
-
-
+# Flush Firmware for Taranis Transmitter
 # Resources
+## Protocol
+* [Beginner's Guide to Protocol](https://www.rcgroups.com/forums/showthread.php?2301242-The-Beginners-Guide-to-RC-Protocols)
+## Controller
 * [F405 Wireing](https://www.youtube.com/watch?v=b4HJjVjH1ac)
 * [F405 Configuration](https://www.youtube.com/watch?v=K3Yj9CxQj7E)
-* [Beginner's Guide to Protocol](https://www.rcgroups.com/forums/showthread.php?2301242-The-Beginners-Guide-to-RC-Protocols)
-* [Receiver pair up](https://www.youtube.com/watch?v=a2025h5vmpg)
+
+## Radio 
+* ### Pairing
+  * [Receiver pair up](https://www.youtube.com/watch?v=a2025h5vmpg)
+  * [Pairing x7 Q with STAB receiver](https://www.youtube.com/watch?v=XvY_LK9wGEw&t=1675s)
+* ### Configuration
+  * [Create Basic Model Types](https://www.youtube.com/watch?v=NIR85KOqIAo)
