@@ -28,11 +28,80 @@
 * [Beginner's Guide to Protocol](https://www.rcgroups.com/forums/showthread.php?2301242-The-Beginners-Guide-to-RC-Protocols)
 ## Controller
 * [F405 Wireing](https://www.youtube.com/watch?v=b4HJjVjH1ac)
+![image](image/wire1.png)
+![image](image/wire2.png)
+![image](image/wire3.png)
+![image](image/BN880_gps.png)
+
 * [F405 Configuration](https://www.youtube.com/watch?v=K3Yj9CxQj7E)
 
 ## Radio 
+* ### Radio Setup
+  * [Set Up New Radio](https://www.youtube.com/watch?v=YD3ojhwVmrI&list=RDCMUCp1vASX-fg959vRc1xowqpw&start_radio=1)
+  * [Switch Set Up](https://www.youtube.com/watch?v=R51UjP8t6BU)
+  * [Taranis Q X7 Initial Setup](https://www.youtube.com/watch?v=zA4-Cy2q2-A)
+  * [Radio Set Up for Flying Wing](https://www.youtube.com/watch?v=mbwAZPKdS4s)
+  * [Setup Models](https://www.youtube.com/watch?v=NIR85KOqIAo&t=29s)
 * ### Pairing
   * [Receiver pair up](https://www.youtube.com/watch?v=a2025h5vmpg)
   * [Pairing x7 Q with STAB receiver](https://www.youtube.com/watch?v=XvY_LK9wGEw&t=1675s)
 * ### Configuration
   * [Create Basic Model Types](https://www.youtube.com/watch?v=NIR85KOqIAo)
+* ### Flight Controller
+  * [405 Wing Flight Controller Setup](https://youtu.be/K3Yj9CxQj7E)
+
+## Auto Polit
+* [Comminicating with Raspi via MAVLink](https://ardupilot.org/dev/docs/raspberry-pi-via-mavlink.html)
+
+## INAV Setup
+* [INav for Beginners Series](https://www.youtube.com/watch?v=z5oEBNXVujU)
+* [CLI variable Rreference](https://github.com/iNavFlight/inav/blob/master/docs/Settings.md)
+```shell 
+# recommended INAV settings
+set max_angle_inclination_rll = 600
+set max_angle_inclination_pit = 600
+set small_angle = 180
+set nav_rth_allow_landing = NEVER
+set nav_rth_climb_first = ON
+set nav_rth_altitude = 2000
+set failsafe_throttle_low_delay = 0
+set failsafe_procedure = RTH 
+set inav_reset_home = FIRST_ARM
+set nav_extra_arming_safety = ON # need GPS 3D lock before arming
+set check_min = 1200 # the value must be greater than the min throttle value
+set baro_hardware = auto # auto detect the baro meter
+set mag_hardware = auto # auto detec the magnets, could be in the gps
+```
+
+## GPS
+* [GPS Quick Fix](https://www.youtube.com/watch?v=k2bZmDdXCso)
+
+
+# TODO
+## Build ar wing
+https://www.youtube.com/watch?v=YY5rRY9ZEC4
+## Drone HardWare
+* assemble mavlink interfaceable drone 
+
+## Software Connection
+* 4G module set up and software for video streaming latency testing
+* Raspi/Jetson nano connect to the pk4 controller 
+* Auto Polit programming, misson control 
+
+## INAV setup
+* fail safe:
+  * return home, lost signal , battery low
+* mission plan
+  * auto take off , landing
+* Switch set up
+  * stablize
+  * return home
+  * auto polit/ mannual mode
+
+## Battery
+* [Make your own Li-ion Battery from 18650](https://www.youtube.com/watch?v=u8EkRS_c3MM)
+
+
+
+
+
