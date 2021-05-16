@@ -71,10 +71,30 @@ set nav_extra_arming_safety = ON # need GPS 3D lock before arming
 set check_min = 1200 # the value must be greater than the min throttle value
 set baro_hardware = auto # auto detect the baro meter
 set mag_hardware = auto # auto detec the magnets, could be in the gps
+
+# set the INAV POSHOLD Mode
+set av_fw_loiter_radius = 3000 # default 7500 , Set the loiter radius, cm
+set fw_loiter_direction = YAW # default RIGHT, Allow the yaw stick to change loiter direction
+
+# set nav_fw_launch 
+nav_fw_launch_velocity = 150 # default 300 
+nav_fw_launch_accel = 1500 # default 1863
+nav_fw_launch_max_angle = 180 # default 45
+nav_fw_launch_motor_delay = 100 # default 500
+nav_fw_launch_timeout = 5000 # the time for the auto lauch before switch to the actual flying mode
+nav_fw_launch_thr = 1800 # default 1700
+nav_fw_launch_idle_thr = 1300 # default 1000
+
 ```
+* [INAV Different Mode](https://inavfixedwinggroup.com/guides/getting-started/inav-modes-guide/#7-nav-poshold)
+* [Auto Launch](https://www.youtube.com/watch?v=zqAbAYtLHSg)
+* [NAV Launch Configuration](https://inavfixedwinggroup.com/guides/tuning/how-to-setup-nav-launch-correctly)
 
 ## GPS
 * [GPS Quick Fix](https://www.youtube.com/watch?v=k2bZmDdXCso)
+
+## New Pilot Things to be watched out
+* [Propellers Right Installatino](https://www.youtube.com/watch?v=chlWYRl4TAU)
 
 
 # TODO
