@@ -56,6 +56,10 @@
 ## INAV Setup
 * [INav for Beginners Series](https://www.youtube.com/watch?v=z5oEBNXVujU)
 * [CLI variable Rreference](https://github.com/iNavFlight/inav/blob/master/docs/Settings.md)
+* [Backup and Restore INAV Settings - diff all](https://www.youtube.com/watch?v=M5haTMW239E)
+* [How to upgrade INAV](https://www.youtube.com/watch?v=zwjL0hmopcU)
+* [Upgrade from 2.6 to 3.0](https://www.youtube.com/watch?v=3NKGTH31hWk)
+* [Auto Tune](https://www.youtube.com/watch?v=aAFFBuMOtAk)
 ```shell 
 # recommended INAV settings
 set max_angle_inclination_rll = 600
@@ -90,12 +94,19 @@ nav_fw_launch_idle_thr = 1300 # default 1000
 * [Auto Launch](https://www.youtube.com/watch?v=zqAbAYtLHSg)
 * [NAV Launch Configuration](https://inavfixedwinggroup.com/guides/tuning/how-to-setup-nav-launch-correctly)
 
+
+## Rum Cam2
+* [Remote Control Rum Cam2](https://www.youtube.com/watch?v=Uspf9eORuPA&t=314s)
+
 ## GPS
 * [GPS Quick Fix](https://www.youtube.com/watch?v=k2bZmDdXCso)
 
-## New Pilot Things to be watched out
-* [Propellers Right Installatino](https://www.youtube.com/watch?v=chlWYRl4TAU)
 
+
+## New Pilot Things to be watched out
+* [Propellers Right Installation](https://www.youtube.com/watch?v=chlWYRl4TAU)
+* [Calculate size of the prop](https://www.youtube.com/watch?v=rZ92f5QPW-0)
+* [Trim and level off](https://www.youtube.com/watch?v=13VVsmsUj1A)
 
 # TODO
 ## Build ar wing
@@ -120,8 +131,9 @@ https://www.youtube.com/watch?v=YY5rRY9ZEC4
 
 ## Battery
 * [Make your own Li-ion Battery from 18650](https://www.youtube.com/watch?v=u8EkRS_c3MM)
-
-
+* [Battery Capacity Amps Calculation](https://www.youtube.com/watch?v=ZZ6kuaklXdM)
+* [Make your own 18650 battery](https://www.youtube.com/watch?v=RKgTJy5H_kY)
+* [SONY | MURATA VTC6 18650](https://www.tinkertechau.com.au/products/sony-us-18650-vtc6-flat-top)
 
 
 
