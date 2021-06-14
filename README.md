@@ -108,6 +108,9 @@ nav_fw_launch_idle_thr = 1300 # default 1000
 * [Calculate size of the prop](https://www.youtube.com/watch?v=rZ92f5QPW-0)
 * [Trim and level off](https://www.youtube.com/watch?v=13VVsmsUj1A)
 
+## Long Range FPV Setup
+* [RushFPV Solo Tank 1600mW Vtx](https://www.youtube.com/watch?v=K6fZd6fqk84)
+
 # TODO
 ## Build ar wing
 https://www.youtube.com/watch?v=YY5rRY9ZEC4
@@ -121,13 +124,9 @@ https://www.youtube.com/watch?v=YY5rRY9ZEC4
 
 ## INAV setup
 * fail safe:
-  * return home, lost signal , battery low
+  * battery low
 * mission plan
   * auto take off , landing
-* Switch set up
-  * stablize
-  * return home
-  * auto polit/ mannual mode
 
 ## Battery
 * [Make your own Li-ion Battery from 18650](https://www.youtube.com/watch?v=u8EkRS_c3MM)
